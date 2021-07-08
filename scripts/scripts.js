@@ -135,7 +135,6 @@ const DOM = {
     DOM.transactionsContainer.innerHTML = '';
   }
 };
-
 const Utils = {
   formatAmount(value) {
     value = Number(value) * 100;

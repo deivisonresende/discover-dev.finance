@@ -1,6 +1,4 @@
-<h1 align="center">
-  <img alt="DEV.FINANCE$" title="DEV.FINANCE$" src=".github/fiances.png" width="220px" />
-</h1>
+# dev.finance$
 
 O dev.finances é uma aplicação simples de controle financeiro, onde é possível cadastrar e excluir transações armazenadas no localStorage e ver o saldo de entrada e saída 💰
 
