@@ -50,13 +50,9 @@ body {
   white-space: nowrap;
   border-width: 0;
 }
-
-main.container {
-  margin: 0 auto;
-}
-
 .container {
-  width: min(90vw, 800px);
+  width: min(75vw, 800px);
+  margin: 0 auto;
 }
 
 /* ==== Titles ==== */
@@ -122,6 +118,9 @@ header {
     #0a5f22c4 110%
   );
   text-align: center;
+  height: 200px;
+  max-width: min(100vw);
+  padding-top: 1rem;
 }
 
 #logo {
@@ -132,7 +131,7 @@ header {
 
 /* ==== Balance ==== */
 #balance {
-  margin-top: -8rem;
+  margin-top: -9rem;
 }
 
 #balance h2 {
@@ -143,7 +142,7 @@ header {
 /* ==== Cards ==== */
 .card {
   background: #fff;
-  padding: 1.5rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 0.25rem;
   margin-bottom: 2rem;
   color: var(--dark-blue);
@@ -161,7 +160,6 @@ header {
 .card p {
   font-size: 2rem;
   line-height: 3rem;
-  margin-top: 1rem;
 }
 
 .card.total.income {
@@ -178,7 +176,7 @@ header {
 #data-table {
   width: 100%;
   font-size: 60%;
-  margin: auto;
+  margin: 0;
   border-spacing: 0 0.5rem;
   color: #969cb3;
   overflow: hidden;
@@ -214,6 +212,7 @@ table td {
   background: #fff;
   padding: 0.5rem 0.6rem;
   text-align: center;
+  font-size: 0.8rem;
 }
 
 td.description {
@@ -300,7 +299,7 @@ input {
 footer {
   text-align: center;
   margin-bottom: 0;
-  padding: 4rem 0 2rem;
+  padding: 2rem 0 2rem;
   color: var(--dark-blue);
   opacity: 0.6;
 }
@@ -348,11 +347,26 @@ footer {
 }
 
 @media (min-width: 900px) {
+  body {
+    height: 100vh;
+  }
+  #balance {
+    margin-top: -6rem;
+  }
+  .card {
+    padding: 2rem 2rem;
+  }
   .card p {
-    font-size: 180%;
+    font-size: 1.6rem;
   }
 
   #data-table {
-    font-size: 98%;
+    font-size: 1rem;
+  }
+  table td {
+    background: #fff;
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+    font-size: 1.2rem;
   }
 }
