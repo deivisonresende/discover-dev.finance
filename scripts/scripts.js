@@ -120,7 +120,7 @@ const DOM = {
 
     let classFormated = divClass.replace('card total ', '');
 
-    setTimeout(() => {
+  
       if (classFormated != CSSclass) {
         div.classList.remove(classFormated);
         div.classList.add(CSSclass);
@@ -128,7 +128,7 @@ const DOM = {
 
       const p = document.getElementById('totalDisplay');
       p.innerHTML = Utils.formatCurrency(total);
-    }, 1);
+
   },
 
   clearTransactions() {
