@@ -1,4 +1,4 @@
-# dev.finance$
+<h1 align="center">dev.finance$</h1>
 
 O dev.finances é uma aplicação simples de controle financeiro, onde é possível cadastrar e excluir transações armazenadas no localStorage e ver o saldo de entrada e saída 💰
 
